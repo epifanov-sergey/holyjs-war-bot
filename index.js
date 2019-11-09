@@ -18,19 +18,42 @@ function getNextCoordinate(pos, enemy) {
     const safeZones = getSafeZones(dangerZones);
     const safeZonesWithDistance = safeZones.map((point, key) => ({
       key,
-      distance: getDistance(point, pos),
+      distance: Math.ceil(getDistance(point, pos)),
     }));
     const res = safeZonesWithDistance.reduce((acc, currentValue) => {
-      if (currentValue.distance < acc.distance && currentValue.distance > 0) {
-        return {
-          x: safeZones[currentValue.key].x,
-          y: safeZones[currentValue.key].y,
-          distance: currentValue.distance,
-        };
+      if (enemies.length === 1) {
+        const oppDistance = Math.ceil(getDistance(pos,
+          { x: safeZones[currentValue.key].x, y: safeZones[currentValue.key].y }),
+        );
+        if (
+          oppDistance >= acc.oppDistance &&
+          API.getActionPointsCount() > oppDistance
+        ) {
+          return {
+            x: safeZones[currentValue.key].x,
+            y: safeZones[currentValue.key].y,
+            distance: currentValue.distance,
+            oppDistance,
+          };
+        } else {
+          return acc;
+        }
       } else {
-        return acc;
+        if (
+          currentValue.distance < acc.distance && currentValue.distance > 0
+          && API.getActionPointsCount() > currentValue.distance
+        ) {
+          return {
+            x: safeZones[currentValue.key].x,
+            y: safeZones[currentValue.key].y,
+            distance: currentValue.distance,
+            oppDistance: 0,
+          };
+        } else {
+          return acc;
+        }
       }
-    }, { distance: API.getArenaSize(), x: pos.x, y: pos.y });
+    }, { distance: API.getArenaSize(), x: pos.x, y: pos.y, oppDistance: 0 });
     newX = res.x;
     newY = res.y;
   }
