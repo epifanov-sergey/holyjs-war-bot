@@ -1,3 +1,5 @@
+const maxActionPoints = 3;
+
 function rand() {
   return Math.round(Math.random());
 }
@@ -11,13 +13,93 @@ function getNextCoordinate(pos, enemy) {
       newY = rand() ? getRandInBoundary(pos.y, 'increase') : getRandInBoundary(pos.y);
     }
   } else {
-    if (rand()) {
-      newX = getRandInBoundary(pos.x, pos.x < enemy.x ? 'increase' : '');
-    } else {
-      newY = getRandInBoundary(pos.y, pos.y < enemy.y ? 'increase' : '');
-    }
+    const enemies = API.getEnemies();
+    const dangerZones = getDangerZones(enemies);
+    const safeZones = getSafeZones(dangerZones);
+    const safeZonesWithDistance = safeZones.map((point, key) => ({
+      key,
+      distance: getDistance(point, pos),
+    }));
+    const res = safeZonesWithDistance.reduce((acc, currentValue) => {
+      if (currentValue.distance < acc.distance && currentValue.distance > 0) {
+        return {
+          x: safeZones[currentValue.key].x,
+          y: safeZones[currentValue.key].y,
+          distance: currentValue.distance,
+        };
+      } else {
+        return acc;
+      }
+    }, { distance: API.getArenaSize(), x: pos.x, y: pos.y });
+    newX = res.x;
+    newY = res.y;
   }
   return { x: newX, y: newY };
+}
+
+function getDangerZones(enemies) {
+  const dangerZone = [];
+  for (let key in enemies) {
+    const { position } = enemies[key];
+    const dangerZoneForEnemy = getPossiblyEnemyRoutes(position);
+    for (let zone in dangerZoneForEnemy) {
+      const zoneExists = dangerZone.filter(({ x, y }) =>
+        x === dangerZoneForEnemy[zone].x && dangerZoneForEnemy[zone].y === zone.y,
+      );
+      if (!zoneExists.length) {
+        dangerZone.push(dangerZoneForEnemy[zone]);
+      }
+    }
+  }
+  return dangerZone;
+}
+
+function getSafeZones(dangerZones) {
+  let safeZone = [];
+  for (let i = 0; i < API.getArenaSize(); i++) {
+    for (let j = 0; j < API.getArenaSize(); j++) {
+      const pointExists = dangerZones.filter(({ x, y }) => x === i && y === j);
+      if (!pointExists.length) {
+        safeZone.push({ x: i, y: j });
+      }
+    }
+  }
+  return safeZone;
+}
+
+function getPossiblyEnemyRoutes(enemyPosition) {
+  const xArr = [];
+  const yArr = [];
+  let currentX = enemyPosition.x - maxActionPoints;
+  let endX = enemyPosition.x + maxActionPoints;
+  let currentY = enemyPosition.y - maxActionPoints;
+  let endY = enemyPosition.y + maxActionPoints;
+  while (currentX < endX) {
+    if (checkBoundaries(currentX)) {
+      xArr.push(currentX);
+    }
+    currentX++;
+  }
+  while (currentY < endY) {
+    if (checkBoundaries(currentY)) {
+      yArr.push(currentY);
+    }
+    currentY++;
+  }
+  const possiblyDangerZone = [];
+  for (let i = 0; i < xArr.length; i++) {
+    for (let j = 0; j < yArr.length; j++) {
+      const currentPoint = { x: xArr[i], y: yArr[j] };
+      if (getDistance(enemyPosition, currentPoint) <= maxActionPoints) {
+        possiblyDangerZone.push(currentPoint);
+      }
+    }
+  }
+  return possiblyDangerZone;
+}
+
+function checkBoundaries(coordinate) {
+  return coordinate >= 0 && coordinate < API.getArenaSize();
 }
 
 function getRandInBoundary(coordinate, type) {
@@ -57,6 +139,8 @@ function getNearestEnemy(position) {
   return nearestEnemy;
 }
 
+console.log('===========================');
+
 let { x, y } = API.getCurrentPosition();
 const myPosition = { x, y };
 let nextPosition;
@@ -65,7 +149,20 @@ if (nearestEnemy) {
   const distanceToEnemy = getDistance(myPosition, nearestEnemy);
   const actionPoints = API.getActionPointsCount();
   if (actionPoints >= distanceToEnemy) {
-    API.move(nearestEnemy.x, nearestEnemy.y);
+    const restEnemies = API.getEnemies()
+    .filter(({ position }) => position.x !== nearestEnemy.x && position.y !== nearestEnemy.y);
+    if (restEnemies.length) {
+      const dangerZones = getDangerZones(restEnemies);
+      const isDangerPoint = dangerZones.filter(({ x, y }) => x === nearestEnemy.x && y === nearestEnemy.y).length;
+      if (isDangerPoint) {
+        nextPosition = getNextCoordinate(myPosition, nearestEnemy);
+        API.move(nextPosition.x, nextPosition.y);
+      } else {
+        API.move(nearestEnemy.x, nearestEnemy.y);
+      }
+    } else {
+      API.move(nearestEnemy.x, nearestEnemy.y);
+    }
   } else {
     nextPosition = getNextCoordinate(myPosition, nearestEnemy);
     API.move(nextPosition.x, nextPosition.y);
