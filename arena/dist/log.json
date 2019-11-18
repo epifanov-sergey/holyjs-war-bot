@@ -1,0 +1,1960 @@
+{
+  "players": [
+    {
+      "username": "RANDOM-1",
+      "initialPosition": {
+        "x": 3,
+        "y": 5
+      }
+    },
+    {
+      "username": "RANDOM-2",
+      "initialPosition": {
+        "x": 7,
+        "y": 2
+      }
+    },
+    {
+      "username": "RANDOM-3",
+      "initialPosition": {
+        "x": 2,
+        "y": 1
+      }
+    },
+    {
+      "username": "RANDOM-4",
+      "initialPosition": {
+        "x": 0,
+        "y": 7
+      }
+    },
+    {
+      "username": "KILLER",
+      "initialPosition": {
+        "x": 8,
+        "y": 6
+      }
+    }
+  ],
+  "mapSize": 9,
+  "gameLog": [
+    {
+      "roundNumber": 1,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-1",
+          "newPosition": {
+            "row": 3,
+            "col": 6
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 7,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 3,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 0,
+            "col": 6
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 2
+        }
+      ]
+    },
+    {
+      "roundNumber": 2,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-1",
+          "newPosition": {
+            "row": 2,
+            "col": 6
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "RANDOM-2",
+          "actionPointsLeft": 2
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 3,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "RANDOM-4",
+          "actionPointsLeft": 2
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 3,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-1",
+          "newPosition": {
+            "row": 3,
+            "col": 6
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 7,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 4,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "RANDOM-4",
+          "actionPointsLeft": 1
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 4,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-1",
+          "newPosition": {
+            "row": 3,
+            "col": 5
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 6,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 5,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 0,
+            "col": 5
+          },
+          "actionPointsLeft": 2
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 5,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-1",
+          "newPosition": {
+            "row": 3,
+            "col": 6
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 6,
+            "col": 3
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 5,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 0,
+            "col": 4
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 6,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-1",
+          "newPosition": {
+            "row": 4,
+            "col": 6
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 6,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 4,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "RANDOM-4",
+          "actionPointsLeft": 2
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 7,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-1",
+          "newPosition": {
+            "row": 4,
+            "col": 7
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 5,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 3,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 0,
+            "col": 5
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 8,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-1",
+          "newPosition": {
+            "row": 3,
+            "col": 7
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 4,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 4,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "RANDOM-4",
+          "actionPointsLeft": 2
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 9,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-1",
+          "newPosition": {
+            "row": 2,
+            "col": 7
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 5,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "RANDOM-3",
+          "actionPointsLeft": 2
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "RANDOM-4",
+          "actionPointsLeft": 1
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 10,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-1",
+          "newPosition": {
+            "row": 1,
+            "col": 7
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 4,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 5,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 1,
+            "col": 5
+          },
+          "actionPointsLeft": 2
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 11,
+      "moves": [
+        {
+          "moveType": "IDLE",
+          "playerId": "RANDOM-1",
+          "actionPointsLeft": 2
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 4,
+            "col": 3
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 4,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 2,
+            "col": 5
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 12,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-1",
+          "newPosition": {
+            "row": 2,
+            "col": 7
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 5,
+            "col": 3
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "RANDOM-3",
+          "actionPointsLeft": 2
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 2,
+            "col": 6
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 13,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-1",
+          "newPosition": {
+            "row": 1,
+            "col": 7
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 5,
+            "col": 4
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 3,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 3,
+            "col": 6
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 14,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-1",
+          "newPosition": {
+            "row": 2,
+            "col": 7
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 5,
+            "col": 3
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "RANDOM-3",
+          "actionPointsLeft": 2
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 3,
+            "col": 7
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 15,
+      "moves": [
+        {
+          "moveType": "IDLE",
+          "playerId": "RANDOM-1",
+          "actionPointsLeft": 2
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 5,
+            "col": 4
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 3,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 4,
+            "col": 7
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 16,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-1",
+          "newPosition": {
+            "row": 3,
+            "col": 7
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 5,
+            "col": 5
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 3,
+            "col": 3
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "KILL",
+          "playersKilled": "RANDOM-1",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 3,
+            "col": 7
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 17,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 5,
+            "col": 4
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 2,
+            "col": 3
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 4,
+            "col": 7
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 18,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 6,
+            "col": 4
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 3,
+            "col": 3
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "RANDOM-4",
+          "actionPointsLeft": 2
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 19,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 5,
+            "col": 4
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 3,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 3,
+            "col": 7
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 20,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 6,
+            "col": 4
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 3,
+            "col": 3
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 4,
+            "col": 7
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 21,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 6,
+            "col": 3
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 4,
+            "col": 3
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 4,
+            "col": 6
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 22,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 7,
+            "col": 3
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 3,
+            "col": 3
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 5,
+            "col": 6
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 23,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 7,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 4,
+            "col": 3
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 5,
+            "col": 7
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 24,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 7,
+            "col": 3
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 4,
+            "col": 4
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 6,
+            "col": 7
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 25,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 7,
+            "col": 4
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 4,
+            "col": 3
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 5,
+            "col": 7
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 26,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 7,
+            "col": 5
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 5,
+            "col": 3
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "RANDOM-4",
+          "actionPointsLeft": 2
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 27,
+      "moves": [
+        {
+          "moveType": "IDLE",
+          "playerId": "RANDOM-2",
+          "actionPointsLeft": 2
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 4,
+            "col": 3
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 5,
+            "col": 6
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 28,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 7,
+            "col": 4
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 5,
+            "col": 3
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 5,
+            "col": 7
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 29,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 6,
+            "col": 4
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 6,
+            "col": 3
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 5,
+            "col": 6
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 30,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 7,
+            "col": 4
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 6,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 5,
+            "col": 7
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 31,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 7,
+            "col": 3
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 5,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 5,
+            "col": 6
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 32,
+      "moves": [
+        {
+          "moveType": "IDLE",
+          "playerId": "RANDOM-2",
+          "actionPointsLeft": 2
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 4,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 5,
+            "col": 7
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 33,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 6,
+            "col": 3
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 3,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 6,
+            "col": 7
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 34,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 6,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 3,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 5,
+            "col": 7
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 35,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 5,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 2,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 5,
+            "col": 6
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 36,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 6,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 3,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 4,
+            "col": 6
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 37,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 6,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 4,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 5,
+            "col": 6
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 38,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 5,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 3,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 6,
+            "col": 6
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 39,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 6,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "RANDOM-3",
+          "actionPointsLeft": 2
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 7,
+            "col": 6
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 40,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 7,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 4,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 7,
+            "col": 5
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 41,
+      "moves": [
+        {
+          "moveType": "IDLE",
+          "playerId": "RANDOM-2",
+          "actionPointsLeft": 2
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 5,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "RANDOM-4",
+          "actionPointsLeft": 2
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 42,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 7,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 4,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "RANDOM-4",
+          "actionPointsLeft": 1
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 43,
+      "moves": [
+        {
+          "moveType": "IDLE",
+          "playerId": "RANDOM-2",
+          "actionPointsLeft": 2
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 3,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 7,
+            "col": 6
+          },
+          "actionPointsLeft": 2
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 44,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 7,
+            "col": 3
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 3,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 7,
+            "col": 5
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 45,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 7,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 3,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 6,
+            "col": 5
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 46,
+      "moves": [
+        {
+          "moveType": "IDLE",
+          "playerId": "RANDOM-2",
+          "actionPointsLeft": 2
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 2,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 6,
+            "col": 6
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 47,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 7,
+            "col": 3
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 1,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 7,
+            "col": 6
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 48,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 7,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 2,
+            "col": 1
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 6,
+            "col": 6
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 49,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 6,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 2,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 6,
+            "col": 7
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    },
+    {
+      "roundNumber": 50,
+      "moves": [
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-2",
+          "newPosition": {
+            "row": 7,
+            "col": 2
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-3",
+          "newPosition": {
+            "row": 2,
+            "col": 3
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "MOVE",
+          "playerId": "RANDOM-4",
+          "newPosition": {
+            "row": 5,
+            "col": 7
+          },
+          "actionPointsLeft": 3
+        },
+        {
+          "moveType": "IDLE",
+          "playerId": "KILLER",
+          "actionPointsLeft": 1
+        }
+      ]
+    }
+  ],
+  "score": {
+    "RANDOM-1": 14,
+    "RANDOM-2": 44,
+    "RANDOM-3": 46,
+    "RANDOM-4": 50,
+    "KILLER": 0
+  }
+}
